@@ -27,6 +27,7 @@ function Script:Init(Settings)
     BubbleChatCombined.ChildAdded:Connect(function(Child)
         if Child.Name == 'VoiceBubble' then
             Child.Visible = false
+            voicebubble = Child
         end
     end)
 
