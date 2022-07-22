@@ -61,7 +61,7 @@ function Script:Init(Settings)
                     CancelText = "Dont Ask Again",
                     CancelActive = true,
                     StripeColor = Color3.new(0.01, 0.72, 0.34),
-                    PromptCompletedCallback = PromptCallback(Option)
+                    PromptCompletedCallback = PromptCallback
                 })
             end
         end
